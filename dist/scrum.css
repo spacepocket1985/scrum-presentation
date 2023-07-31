@@ -1,0 +1,107 @@
+.roles-wrapper,
+.columns-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.roles-second,
+.roles-team,
+.column-wrapper {
+  flex-direction: column;
+}
+
+.roles-img {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.roles-info {
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.roles-title {
+  font-weight: 700;
+  text-transform: uppercase
+}
+
+.roles-first .roles-img {
+  width: 262px;
+  height: 500px;
+  background-image: url(../examples/assets/product-owner.png);
+}
+
+.roles-second .roles-img {
+  width: 815px;
+  height: 300px;
+  background-image: url(../examples/assets/developmentTeam.png);
+}
+
+.roles-third .roles-img {
+  width: 262px;
+  height: 500px;
+  background-image: url(../examples/assets/scrumMaster.png);
+}
+
+.roles-team .roles-img {
+  width: 927px;
+  height: 250px;
+  background-image: url(../examples/assets/ScrumTeam.png);
+}
+
+.roles-first .roles-title {
+  color: #f1b604;
+}
+
+.orange {
+  color: #f1b604;
+}
+
+.blue {
+  color: #1e1bed;
+}
+
+.grey {
+  color: #49494e;
+}
+
+.roles-second .roles-title {
+  color: #1e1bed;
+}
+
+.roles-third .roles-title {
+  color: #49494e;
+}
+
+.pizza {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background-image: url(../examples/assets/pizza.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.artifacts {
+  width: 922px;
+  height: 448px;
+  background-image: url(../examples/assets/artifacts.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.process {
+  width: 600px;
+  height: 541px;
+  background-image: url(../examples/assets/scrum_process.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.overview {
+  width: 1000px;
+  height: 522px;
+  background-image: url(../examples/assets/over.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
